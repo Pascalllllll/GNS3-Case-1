@@ -77,23 +77,6 @@
 
 > Bagaimana mensimulasikan pembatasan troughput antara netics-pc-1 dan netics-pc-2 
 
-**Answer:** `54184`
-
-- Filter expression
-
-  `telnet`
-
-- Explanation
-
-  `Sebelumnya saya menambahkan kolom baru dengan field diisi tcp.srcport, lalu ketika di display telnet nampak angka dari port clientnya`
-
-- Output result
-
-  <img width="961" height="784" alt="image" src="https://github.com/user-attachments/assets/9f3e0fce-f48d-44e2-9e5e-5ba019bac9f7" />
-
-
-  <br>
-  <br>
 
 > b. Berapa byte file response yang dikirim dari server?
 
