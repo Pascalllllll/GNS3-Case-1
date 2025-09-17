@@ -77,52 +77,6 @@
 
 > Bagaimana mensimulasikan pembatasan troughput antara netics-pc-1 dan netics-pc-2 
 
-
-> b. Berapa byte file response yang dikirim dari server?
-
-> _b. How many bytes of the response files are sent from the server?_
-
-**Answer:** `1449`
-
-- Filter expression
-
-  `telnet`
-
-- Explanation
-
-  `follow lalu tcp stream, ubah entire conversation, jawaban tertera di pilihan`
-
-- Output result
-
-<img width="920" height="790" alt="image" src="https://github.com/user-attachments/assets/642c1a13-572f-4148-9837-cffdd54cf1b2" />
-
-
-  <br>
-  <br>
-
-> c. Apa username yang digunakan client telnet untuk berhubungan dengan server?
-
-> _c. What telnet client's username is used to connect with the server?_
-
-**Answer:** `jovyan`
-
-- Filter expression
-
-  `telnet`
-
-- Explanation
-
-  `follow salah satu data lalu TCP stream, ada username bernama jovyan`
-
-- Output result
-
-  <img width="752" height="790" alt="image" src="https://github.com/user-attachments/assets/ae802048-3294-4b88-b1a7-09c10011e7c6" />
-
-  `pakai telnet karena tidak terenkripsi jadi bisa dibaca`
-
-  <br>
-  <br>
-
 > d. Apa password client telnet?
 
 > _d. What is the telnet client's password?_
